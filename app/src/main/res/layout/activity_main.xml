@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:weightSum="5"
+    tools:context="com.techymonk.firstone.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Download Today!!"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_margin="10pt"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/welcome"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:src="@drawable/roundedicon"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/titleColor"
+        android:text="BOOK-RACK"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="www.bookrackapp.com"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.25"/>
+
+    <TextView
+        android:id="@+id/address"
+
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bay Area, CA"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_weight="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="bookrackapp@gmail.com"
+        android:layout_gravity="center"
+
+        android:textSize="16sp" />
+    <TextView
+        android:layout_weight="0.25"
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&quot;Buy and Sell your used textbooks in BOOK-RACK&quot;"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
